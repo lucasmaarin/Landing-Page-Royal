@@ -1,0 +1,3 @@
+cd C:\Users\lucas\Desktop\Lp roayalX
+
+firebase deploy
