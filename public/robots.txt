@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://royaldev-d41c4.web.app/sitemap.xml

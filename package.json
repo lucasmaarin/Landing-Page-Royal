@@ -1,5 +1,13 @@
 {
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-runtime-config.mjs",
+    "lint": "node scripts/check.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run lint && npm test && npm run build"
+  },
   "dependencies": {
-    "firebase": "^12.6.0"
+    "firebase": "^9.14.0"
   }
 }
